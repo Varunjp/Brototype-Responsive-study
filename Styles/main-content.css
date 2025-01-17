@@ -4,9 +4,60 @@
     top: 90px;
     width: 1235px;
 }
+.main-banner{
+    overflow: hidden;
+}
 
-.main-banner img{
-    width: 100%;
+.main-banner figure{
+     position: relative;
+     width: 400%;
+     margin: 0;
+     left: 0;
+     animation: slideleft 10s ease-in-out infinite;
+}
+
+@keyframes slideleft{
+    0%{
+        left: 0%;
+    }
+    15%{
+        left: 0%;
+    }
+    24%{
+        left: 0%;
+    }
+    25%{
+        left: -100%;
+    }
+    40%{
+        left: -100%;
+    }
+    49%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    65%{
+        left: -200%;
+    }
+    74%{
+        left: -200%;
+    }
+    75%{
+        left: -300%;
+    }
+    90%{
+        left: -300%;
+    }
+    99%{
+        left: -300%;
+    }
+}
+
+.main-banner figure img{
+    width: 25%;
+    float: left;
     border-radius: 10px;
 }
 
