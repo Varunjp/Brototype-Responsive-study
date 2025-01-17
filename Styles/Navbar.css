@@ -1,0 +1,94 @@
+.main-nav{
+    position: fixed;
+    top: 0;
+    z-index: 50;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(16,16,16);
+    padding-bottom: 50px;
+}
+
+.main-logo-section{
+    padding-top: 35px;
+    padding-left: 25px;
+}
+
+.main-logo-section img{
+    width: 150px;
+}
+.course-option{
+    margin-top: 80px;
+    padding-left: 8px;
+    padding-right: 8px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2px;
+   
+}
+.course-button{
+    display: flex;
+    align-items: center;
+    padding-left: 17px;
+    height: 45px;
+    background-color: rgba(97, 0, 255, 0.5);
+    border: 0px solid rgb(39, 39, 42);
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+
+.my-learn-button{ 
+    display: flex;
+    align-items: center;
+    padding-left: 17px;
+    height: 45px;
+    background-color: rgb(16,16,16);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition-duration: 0.2s;    
+}
+
+.my-learn-button:active{
+    background-color: rgba(97, 0, 255, 0.5);
+}
+
+.course-option h1{
+    font-size: 14px;
+    margin-left: 5px;
+    color: rgb(255,255,255);
+    font-weight: 500;
+}
+
+.user-menu{
+    display: flex;
+    flex-direction: column;
+    margin-top: 220px;
+}
+
+.user-menu a{
+    text-decoration: none;
+    margin-left: 25px;
+    margin-right: 25px;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    transition-duration: 0.2s;
+}
+
+.user-menu a:hover{
+    color: rgb(221, 201, 14);
+}
+
+.user-menu p{
+    margin-left: 5px;
+    width: 150px;
+}
+
+.user-menu h1{
+    margin-left: 5px;
+    font-size: 15px;
+    font-weight: 500;
+}

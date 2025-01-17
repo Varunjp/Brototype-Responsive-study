@@ -1,0 +1,103 @@
+.main-header{
+    display: flex;
+    margin-left: 265px;
+    z-index: 50;
+    position: fixed;
+    background-color: rgb(0,0,0);
+    padding-right: 23px;
+}
+
+.main-header-left{
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.Search-section{
+    display: flex;
+    position: relative;
+}
+
+.main-header-left input{
+    margin-right: 20px;
+    height: 35px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+    padding-right: 200px;
+    background-color: rgb(0,0,0);
+    border: 0.8px solid rgb(34,34,34);
+    border-radius: 4px;
+    color: rgb(243, 226, 226);
+    font-size: 15px;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 35px;
+    top: 10px;
+}
+.main-header-left select{
+    height: 35px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 4px;
+    background-color: rgb(0,0,0);
+    color: rgb(230, 236, 236);
+    font-size: 15px;
+    border: 0.8px solid rgb(34,34,34);
+}
+
+.main-header-right{
+    margin-left: 320px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+
+}
+
+.Telegram-section{
+    color: rgb(65, 132, 225);
+    padding-top: 10px;
+    font-size: 14px;
+    
+}
+
+.Telegram-section span{
+    animation: blinker 1.5s ease infinite;
+}
+
+@keyframes blinker{
+    50%{
+        opacity:0.5;
+    }
+}
+
+.contact-button{
+    display: flex;
+    color: rgb(179, 176, 173);
+    align-items: center;
+    padding: 10px;
+    margin-left: 35px;
+    margin-right: 35px;
+    background-color: rgb(0,0,0);
+    border: 0.8px solid rgb(0,0,0);
+    border-radius: 25px;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+.contact-button:hover{
+    background-color: rgb(29, 28, 28);
+    color: rgb(221, 201, 14);
+}
+.user-name{
+    color: azure;
+    padding-top: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Inter", serif;
+}
+
