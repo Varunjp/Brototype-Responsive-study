@@ -82,7 +82,7 @@
     color: rgb(221, 201, 14);
 }
 
-.logout :hover{
+.logout:hover{
     color: rgb(243, 26, 10);
 }
 
@@ -91,8 +91,8 @@
     width: 150px;
 }
 
-.user-menu h1{
+/* .user-menu h1{
     margin-left: 5px;
     font-size: 15px;
     font-weight: 500;
-}
+} */
