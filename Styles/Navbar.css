@@ -78,8 +78,12 @@
     transition-duration: 0.2s;
 }
 
-.user-menu a:hover{
+.general-btn:hover{
     color: rgb(221, 201, 14);
+}
+
+.logout :hover{
+    color: rgb(243, 26, 10);
 }
 
 .user-menu p{
