@@ -1,0 +1,134 @@
+@media (max-width:1440px){
+    .mobile-nav-container{
+        display: none;
+    }
+
+    .main-category button{
+        font-size: 0.75rem;
+    }
+
+    .mobile-search-bar{
+        display: none;
+    }
+}
+
+@media (max-width: 1024px){
+
+    .main-header,.main-content{
+        margin-left: 17vw;
+        width: 80vw;
+    }
+
+    .main-header-left input{
+        height: 1.75rem;
+        padding: 0.25rem;
+        width: 18rem;
+    }
+
+    .icon{
+        top: 0.8rem;
+    }
+
+    .main-logo-section img,.user-menu p{
+        width: 5rem;
+        font-size: 0.75rem;
+    }
+    .course-option h1{
+        font-size: 0.75rem;
+        margin-left: 0.3rem;
+        color: rgb(255,255,255);
+        font-weight: 500;
+    }
+    .main-category button{
+        font-size: 0.65rem;
+        font-weight: normal;
+    }
+
+    .main-portions{
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 2rem;
+    }
+    
+}
+
+@media (max-width: 768px){
+    .main-header,.main-content{
+        margin-left: 22vw;
+        width: 76vw;
+    }
+
+    .main-header-left input{
+        height: 1.5rem;
+        padding: 0.25rem;
+        width: 12rem;
+        margin-right: 0.5rem;
+    }
+
+    .icon{
+        top: 0.6rem;
+        right: 1rem;
+    }
+
+    .main-header-left select{
+        height: 2rem;
+        padding: 0.25rem;
+        border-radius: 4px;
+        background-color: rgb(0,0,0);
+        color: rgb(230, 236, 236);
+        font-size: 0.75rem;
+        border: 0.8px solid rgb(34,34,34);
+    }
+    .main-header-right{
+        align-items: baseline;
+    }
+    .Telegram-section{
+        font-size: 0.65rem;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 0.15rem; 
+    }
+    .contact-button{
+        width: 2.4rem;
+    }
+
+    .user-name{
+        font-size: 0.75rem;
+    }
+
+    .main-portions{
+        grid-template-columns: 1fr 1fr;
+        column-gap: 1rem;
+    }
+}
+
+@media (max-width:426px){
+
+    .mobile-nav-container{
+        display: block;
+    }
+
+    .main-header{
+        display: none;
+    }
+    .main-nav{
+        display: none;
+    }
+
+    .main-content{
+        margin: auto;
+        top: 5rem;
+    }
+
+    .mobile-search-bar{
+        display: block;
+    }
+
+    .main-category{
+        position: static;
+    }
+
+    .main-portions{
+        grid-template-columns: 1fr;
+    }
+}
